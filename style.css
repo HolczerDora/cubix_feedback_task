@@ -1,0 +1,49 @@
+:root {
+    --font-family: Arial, Helvetica, sans-serif;
+    --primary-font-color: #a4a4a4;
+    --primary-color: #5d9930;
+    --border-color: #747474;
+  }
+  
+  body {
+    font-family: var(--font-family);
+    margin: 16px;
+    color: var(--primary-font-color);
+  }
+  
+  h1{
+    margin-bottom:0px ;
+  }
+  
+  .container {
+    padding: 16px 0;
+  }
+  
+  .form-item {
+    margin-bottom: 24px;
+  }
+  
+  label {
+    display: inline-block;
+    margin-bottom: 8px;
+    color: rgba(0,0,0,0.8);
+  }
+  
+  input {
+    --height: 24px;
+    width: 100%;
+    height: var(--height);
+    line-height: var(--height);
+    border: 2px solid var(--border-color);
+    border-radius: 8px;
+  }
+  
+  textarea {
+    width: 100%;
+    line-height: var(--height);
+    border: 2px solid var(--border-color);
+    border-radius: 8px;
+    font-family: var(--font-family);
+  }
+  
+  
